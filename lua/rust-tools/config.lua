@@ -32,6 +32,13 @@ M.options = {
     -- Automatically adds the manifest path of your current buffer to the `Cargo command` instead of using the cwd
     -- This is helpful for things like monorepos where your cwd may not necessarily be the root of the workspace
     cargo_wrapper = true,
+    
+    code_action_group = {
+      -- Function with signature of `vim.ui.select` used to display the code_actions
+      -- default: require("rust-tools.code_action_group").telescope_select(),
+      selector = require("rust-tools.code_action_group").telescope_select(),
+      -- selector = vim.ui.select,
+    },
 
     -- These apply to the default RustSetInlayHints command
     inlay_hints = {
