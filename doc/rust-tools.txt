@@ -1,4 +1,4 @@
-*rust-tools.txt*           For NVIM v0.8.0          Last change: 2023 March 06
+*rust-tools.txt*            For NVIM v0.8.0           Last change: 2023 May 25
 
 ==============================================================================
 Table of Contents                               *rust-tools-table-of-contents*
@@ -21,7 +21,6 @@ A plugin to improve your rust experience in neovim.
 
 QUICK LINKS                           *rust-tools-rust-tools.nvim-quick-links*
 
-
 - Wiki <https://github.com/simrat39/rust-tools.nvim/wiki>
     - CodeLLDB Debugging <https://github.com/simrat39/rust-tools.nvim/wiki/Debugging>
     - Standalone File <https://github.com/simrat39/rust-tools.nvim/wiki/Standalone-File-Support>
@@ -31,7 +30,6 @@ QUICK LINKS                           *rust-tools-rust-tools.nvim-quick-links*
 
 
 PREREQUISITES                       *rust-tools-rust-tools.nvim-prerequisites*
-
 
 - `neovim 0.7`
 - `nvim-lspconfig`
@@ -336,7 +334,6 @@ for keys that are not provided.
 
 
 RELATED PROJECTS                 *rust-tools-rust-tools.nvim-related-projects*
-
 
 - `Saecki/crates.nvim` <https://github.com/Saecki/crates.nvim>
 
